@@ -24,7 +24,7 @@ class Database {
   }
 }
 
-const db = new Database({
+const db = new Database(process.env.JAWSDB_URL||{
   host: "localhost",
   port: 3306,
   user: process.env.DB_USER,
