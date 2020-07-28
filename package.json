@@ -1,7 +1,6 @@
 {
   "name": "homework13",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "directories": {
     "doc": "docs"
@@ -19,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/smggg/homework13/issues"
   },
-  "homepage": "https://github.com/smggg/homework13#readme"
+  "homepage": "https://github.com/smggg/homework13#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars": "^4.7.6",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "description": "An app that allows you to add burgers of your choices and devour it. Data is collected and stored in an SQL database. The project uses MVC framework."
 }
